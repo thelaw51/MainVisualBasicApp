@@ -1,0 +1,17 @@
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.vbproj.AssemblyReference.cache
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.MainMenu.resources
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.vbproj.GenerateResource.cache
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.AssemblyInfoInputs.cache
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.AssemblyInfo.vb
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.vbproj.CoreCompileInputs.cache
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\bin\Debug\net6.0-windows\MainVisualBasicApp.exe
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\bin\Debug\net6.0-windows\MainVisualBasicApp.deps.json
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\bin\Debug\net6.0-windows\MainVisualBasicApp.runtimeconfig.json
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\bin\Debug\net6.0-windows\MainVisualBasicApp.dll
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\bin\Debug\net6.0-windows\MainVisualBasicApp.pdb
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.dll
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\refint\MainVisualBasicApp.dll
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.pdb
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.genruntimeconfig.cache
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\ref\MainVisualBasicApp.dll
