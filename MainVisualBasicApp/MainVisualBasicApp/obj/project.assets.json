@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joegi\\repos\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp.vbproj",
+      "projectUniqueName": "C:\\Users\\joegi\\source\\repos\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp.vbproj",
       "projectName": "MainVisualBasicApp",
-      "projectPath": "C:\\Users\\joegi\\repos\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp.vbproj",
+      "projectPath": "C:\\Users\\joegi\\source\\repos\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp.vbproj",
       "packagesPath": "C:\\Users\\joegi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joegi\\repos\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp\\obj\\",
+      "outputPath": "C:\\Users\\joegi\\source\\repos\\MainVisualBasicApp\\MainVisualBasicApp\\MainVisualBasicApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
