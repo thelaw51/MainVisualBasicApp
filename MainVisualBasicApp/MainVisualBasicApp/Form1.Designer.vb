@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class MainMenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -80,7 +80,7 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(1119, 514)
         Me.Panel2.TabIndex = 4
         '
-        'Form1
+        'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 21.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -89,7 +89,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("JetBrains Mono ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.Name = "Form1"
+        Me.Name = "MainMenu"
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
