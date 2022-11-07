@@ -29,6 +29,7 @@ Partial Class SlotMachine
         Me.btnPull = New System.Windows.Forms.Button()
         Me.lblPullsCounter1 = New System.Windows.Forms.Label()
         Me.lblPullsCounter2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblNum1
@@ -102,11 +103,22 @@ Partial Class SlotMachine
         Me.lblPullsCounter2.TabIndex = 8
         Me.lblPullsCounter2.Text = "Pulls Left : "
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("JetBrains Mono", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.Location = New System.Drawing.Point(13, 405)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(125, 23)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "Main Menu"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'SlotMachine
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 21.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(678, 429)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblPullsCounter2)
         Me.Controls.Add(Me.lblPullsCounter1)
         Me.Controls.Add(Me.btnPull)
@@ -130,4 +142,5 @@ Partial Class SlotMachine
     Friend WithEvents btnPull As Button
     Friend WithEvents lblPullsCounter1 As Label
     Friend WithEvents lblPullsCounter2 As Label
+    Friend WithEvents Button1 As Button
 End Class
