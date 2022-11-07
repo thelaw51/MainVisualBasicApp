@@ -15,3 +15,4 @@ C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasi
 C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.pdb
 C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.genruntimeconfig.cache
 C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\ref\MainVisualBasicApp.dll
+C:\Users\joegi\source\repos\MainVisualBasicApp\MainVisualBasicApp\MainVisualBasicApp\obj\Debug\net6.0-windows\MainVisualBasicApp.SlotMachine.resources

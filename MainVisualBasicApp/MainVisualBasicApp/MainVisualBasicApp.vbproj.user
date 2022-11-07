@@ -4,5 +4,8 @@
     <Compile Update="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SlotMachine.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

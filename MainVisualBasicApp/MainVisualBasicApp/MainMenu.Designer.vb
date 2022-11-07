@@ -22,17 +22,88 @@ Partial Class MainMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.SuspendLayout
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.lblMMTitle1 = New System.Windows.Forms.Label()
+        Me.lblMMTitle2 = New System.Windows.Forms.Label()
+        Me.btnSlotMachine = New System.Windows.Forms.Button()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Panel1
+        '
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.lblMMTitle2)
+        Me.Panel1.Controls.Add(Me.lblMMTitle1)
+        Me.Panel1.Location = New System.Drawing.Point(19, 20)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(5)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1224, 84)
+        Me.Panel1.TabIndex = 0
+        '
+        'Panel2
+        '
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.btnSlotMachine)
+        Me.Panel2.Location = New System.Drawing.Point(19, 114)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(5)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1224, 622)
+        Me.Panel2.TabIndex = 1
+        '
+        'lblMMTitle1
+        '
+        Me.lblMMTitle1.AutoSize = True
+        Me.lblMMTitle1.Font = New System.Drawing.Font("JetBrains Mono ExtraBold", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblMMTitle1.Location = New System.Drawing.Point(494, 0)
+        Me.lblMMTitle1.Name = "lblMMTitle1"
+        Me.lblMMTitle1.Size = New System.Drawing.Size(190, 43)
+        Me.lblMMTitle1.TabIndex = 0
+        Me.lblMMTitle1.Text = "Main Menu"
+        '
+        'lblMMTitle2
+        '
+        Me.lblMMTitle2.AutoSize = True
+        Me.lblMMTitle2.Font = New System.Drawing.Font("JetBrains Mono ExtraBold", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblMMTitle2.Location = New System.Drawing.Point(436, 43)
+        Me.lblMMTitle2.Name = "lblMMTitle2"
+        Me.lblMMTitle2.Size = New System.Drawing.Size(309, 25)
+        Me.lblMMTitle2.TabIndex = 1
+        Me.lblMMTitle2.Text = "Choose what project to open"
+        '
+        'btnSlotMachine
+        '
+        Me.btnSlotMachine.AutoSize = True
+        Me.btnSlotMachine.Location = New System.Drawing.Point(0, 0)
+        Me.btnSlotMachine.Name = "btnSlotMachine"
+        Me.btnSlotMachine.Size = New System.Drawing.Size(154, 43)
+        Me.btnSlotMachine.TabIndex = 0
+        Me.btnSlotMachine.Text = "Slot Machine"
+        Me.btnSlotMachine.UseVisualStyleBackColor = True
         '
         'MainMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7!, 15!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1257, 750)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel1)
+        Me.Font = New System.Drawing.Font("JetBrains Mono", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "MainMenu"
         Me.Text = "Main Menu"
-        Me.ResumeLayout(false)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.ResumeLayout(False)
 
-End Sub
+    End Sub
 
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents lblMMTitle1 As Label
+    Friend WithEvents lblMMTitle2 As Label
+    Friend WithEvents btnSlotMachine As Button
 End Class
