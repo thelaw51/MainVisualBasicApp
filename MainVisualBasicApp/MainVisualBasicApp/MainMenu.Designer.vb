@@ -23,10 +23,11 @@ Partial Class MainMenu
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.lblMMTitle1 = New System.Windows.Forms.Label()
         Me.lblMMTitle2 = New System.Windows.Forms.Label()
+        Me.lblMMTitle1 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btnSlotMachine = New System.Windows.Forms.Button()
+        Me.btnCalculator = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -42,15 +43,15 @@ Partial Class MainMenu
         Me.Panel1.Size = New System.Drawing.Size(1224, 84)
         Me.Panel1.TabIndex = 0
         '
-        'Panel2
+        'lblMMTitle2
         '
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel2.Controls.Add(Me.btnSlotMachine)
-        Me.Panel2.Location = New System.Drawing.Point(19, 114)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(5)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1224, 622)
-        Me.Panel2.TabIndex = 1
+        Me.lblMMTitle2.AutoSize = True
+        Me.lblMMTitle2.Font = New System.Drawing.Font("JetBrains Mono ExtraBold", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblMMTitle2.Location = New System.Drawing.Point(436, 43)
+        Me.lblMMTitle2.Name = "lblMMTitle2"
+        Me.lblMMTitle2.Size = New System.Drawing.Size(309, 25)
+        Me.lblMMTitle2.TabIndex = 1
+        Me.lblMMTitle2.Text = "Choose what project to open"
         '
         'lblMMTitle1
         '
@@ -62,15 +63,16 @@ Partial Class MainMenu
         Me.lblMMTitle1.TabIndex = 0
         Me.lblMMTitle1.Text = "Main Menu"
         '
-        'lblMMTitle2
+        'Panel2
         '
-        Me.lblMMTitle2.AutoSize = True
-        Me.lblMMTitle2.Font = New System.Drawing.Font("JetBrains Mono ExtraBold", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblMMTitle2.Location = New System.Drawing.Point(436, 43)
-        Me.lblMMTitle2.Name = "lblMMTitle2"
-        Me.lblMMTitle2.Size = New System.Drawing.Size(309, 25)
-        Me.lblMMTitle2.TabIndex = 1
-        Me.lblMMTitle2.Text = "Choose what project to open"
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.btnCalculator)
+        Me.Panel2.Controls.Add(Me.btnSlotMachine)
+        Me.Panel2.Location = New System.Drawing.Point(19, 114)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(5)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1224, 622)
+        Me.Panel2.TabIndex = 1
         '
         'btnSlotMachine
         '
@@ -81,6 +83,16 @@ Partial Class MainMenu
         Me.btnSlotMachine.TabIndex = 0
         Me.btnSlotMachine.Text = "Slot Machine"
         Me.btnSlotMachine.UseVisualStyleBackColor = True
+        '
+        'btnCalculator
+        '
+        Me.btnCalculator.AutoSize = True
+        Me.btnCalculator.Location = New System.Drawing.Point(160, 0)
+        Me.btnCalculator.Name = "btnCalculator"
+        Me.btnCalculator.Size = New System.Drawing.Size(154, 43)
+        Me.btnCalculator.TabIndex = 1
+        Me.btnCalculator.Text = "Calculator"
+        Me.btnCalculator.UseVisualStyleBackColor = True
         '
         'MainMenu
         '
@@ -106,4 +118,5 @@ Partial Class MainMenu
     Friend WithEvents lblMMTitle1 As Label
     Friend WithEvents lblMMTitle2 As Label
     Friend WithEvents btnSlotMachine As Button
+    Friend WithEvents btnCalculator As Button
 End Class
