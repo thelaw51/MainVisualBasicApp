@@ -22,12 +22,15 @@ Partial Class MainMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.lblMMTitle2 = New System.Windows.Forms.Label()
         Me.lblMMTitle1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.btnSlotMachine = New System.Windows.Forms.Button()
         Me.btnCalculator = New System.Windows.Forms.Button()
+        Me.btnSlotMachine = New System.Windows.Forms.Button()
+        Me.lblClock = New System.Windows.Forms.Label()
+        Me.CurrentTimeTimer = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -74,16 +77,6 @@ Partial Class MainMenu
         Me.Panel2.Size = New System.Drawing.Size(1224, 622)
         Me.Panel2.TabIndex = 1
         '
-        'btnSlotMachine
-        '
-        Me.btnSlotMachine.AutoSize = True
-        Me.btnSlotMachine.Location = New System.Drawing.Point(0, 0)
-        Me.btnSlotMachine.Name = "btnSlotMachine"
-        Me.btnSlotMachine.Size = New System.Drawing.Size(154, 43)
-        Me.btnSlotMachine.TabIndex = 0
-        Me.btnSlotMachine.Text = "Slot Machine"
-        Me.btnSlotMachine.UseVisualStyleBackColor = True
-        '
         'btnCalculator
         '
         Me.btnCalculator.AutoSize = True
@@ -94,11 +87,35 @@ Partial Class MainMenu
         Me.btnCalculator.Text = "Calculator"
         Me.btnCalculator.UseVisualStyleBackColor = True
         '
+        'btnSlotMachine
+        '
+        Me.btnSlotMachine.AutoSize = True
+        Me.btnSlotMachine.Location = New System.Drawing.Point(0, 0)
+        Me.btnSlotMachine.Name = "btnSlotMachine"
+        Me.btnSlotMachine.Size = New System.Drawing.Size(154, 43)
+        Me.btnSlotMachine.TabIndex = 0
+        Me.btnSlotMachine.Text = "Slot Machine"
+        Me.btnSlotMachine.UseVisualStyleBackColor = True
+        '
+        'lblClock
+        '
+        Me.lblClock.Font = New System.Drawing.Font("JetBrains Mono", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblClock.Location = New System.Drawing.Point(564, 2)
+        Me.lblClock.Name = "lblClock"
+        Me.lblClock.Size = New System.Drawing.Size(74, 13)
+        Me.lblClock.TabIndex = 2
+        Me.lblClock.Text = "Time"
+        '
+        'CurrentTimeTimer
+        '
+        Me.CurrentTimeTimer.Enabled = True
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1257, 750)
+        Me.Controls.Add(Me.lblClock)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("JetBrains Mono", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
@@ -119,4 +136,6 @@ Partial Class MainMenu
     Friend WithEvents lblMMTitle2 As Label
     Friend WithEvents btnSlotMachine As Button
     Friend WithEvents btnCalculator As Button
+    Friend WithEvents lblClock As Label
+    Friend WithEvents CurrentTimeTimer As Timer
 End Class
