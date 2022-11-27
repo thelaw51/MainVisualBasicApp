@@ -22,6 +22,7 @@ Partial Class Calculator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.btn7 = New System.Windows.Forms.Button()
         Me.btn3 = New System.Windows.Forms.Button()
@@ -38,6 +39,10 @@ Partial Class Calculator
         Me.btnSubtract = New System.Windows.Forms.Button()
         Me.btnAdd = New System.Windows.Forms.Button()
         Me.btnMainMenu = New System.Windows.Forms.Button()
+        Me.lblClock = New System.Windows.Forms.Label()
+        Me.CurrentTimeTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.btn0 = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblTotal
@@ -134,9 +139,9 @@ Partial Class Calculator
         '
         'btnTotal
         '
-        Me.btnTotal.Location = New System.Drawing.Point(19, 314)
+        Me.btnTotal.Location = New System.Drawing.Point(183, 314)
         Me.btnTotal.Name = "btnTotal"
-        Me.btnTotal.Size = New System.Drawing.Size(240, 78)
+        Me.btnTotal.Size = New System.Drawing.Size(76, 78)
         Me.btnTotal.TabIndex = 10
         Me.btnTotal.Text = "="
         Me.btnTotal.UseVisualStyleBackColor = True
@@ -170,7 +175,7 @@ Partial Class Calculator
         '
         'btnAdd
         '
-        Me.btnAdd.Location = New System.Drawing.Point(282, 62)
+        Me.btnAdd.Location = New System.Drawing.Point(265, 62)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(76, 78)
         Me.btnAdd.TabIndex = 14
@@ -187,11 +192,45 @@ Partial Class Calculator
         Me.btnMainMenu.Text = "Main Menu"
         Me.btnMainMenu.UseVisualStyleBackColor = True
         '
+        'lblClock
+        '
+        Me.lblClock.Font = New System.Drawing.Font("JetBrains Mono", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblClock.Location = New System.Drawing.Point(265, 395)
+        Me.lblClock.Name = "lblClock"
+        Me.lblClock.Size = New System.Drawing.Size(76, 26)
+        Me.lblClock.TabIndex = 16
+        Me.lblClock.Text = "Time"
+        '
+        'CurrentTimeTimer
+        '
+        Me.CurrentTimeTimer.Enabled = True
+        '
+        'btn0
+        '
+        Me.btn0.Location = New System.Drawing.Point(19, 314)
+        Me.btn0.Name = "btn0"
+        Me.btn0.Size = New System.Drawing.Size(76, 78)
+        Me.btn0.TabIndex = 17
+        Me.btn0.Text = "0"
+        Me.btn0.UseVisualStyleBackColor = True
+        '
+        'btnClear
+        '
+        Me.btnClear.Location = New System.Drawing.Point(101, 314)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(76, 78)
+        Me.btnClear.TabIndex = 18
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = True
+        '
         'Calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(344, 423)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btn0)
+        Me.Controls.Add(Me.lblClock)
         Me.Controls.Add(Me.btnMainMenu)
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.btnSubtract)
@@ -232,4 +271,8 @@ Partial Class Calculator
     Friend WithEvents btnSubtract As Button
     Friend WithEvents btnAdd As Button
     Friend WithEvents btnMainMenu As Button
+    Friend WithEvents lblClock As Label
+    Friend WithEvents CurrentTimeTimer As Timer
+    Friend WithEvents btn0 As Button
+    Friend WithEvents btnClear As Button
 End Class
